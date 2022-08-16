@@ -20,7 +20,7 @@ int main() {
         for (auto& it : A) cin >> it;
         for (auto& it : B) cin >> it;
         for (auto& it : C) cin >> it;
-        ll mn = INT_MAX;
+        ll mn = 1e18;
         int idx = -1;
         for (int i = 0; i < n; i++) {
             if (A[i] + B[i] + C[i] < mn) {
